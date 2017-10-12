@@ -1,0 +1,101 @@
+
+html{
+  padding:0;
+  margin:0;
+}
+body{
+  padding:0;
+  margin:0;
+  background: #1a85ad;
+}
+h3{
+  color: #1a85ad;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+p{
+  margin: 10px 10px 20px 10px;
+  color:white;
+}
+hr{
+  width:200px;
+  margin-bottom: 20px;
+}
+.nav{
+  top: 0;
+  position: fixed;
+  font-family: sans-serif;
+  height:50px;
+  width:100%;
+  background:tomato;
+  color:white;
+}
+.navList{
+
+  list-style: none;
+}
+.navList li{
+  float:left;
+  margin:0px 10px;
+}
+.navList li a{
+  text-transform: uppercase;
+  text-decoration:none;
+  font-size:16px;
+  color:white;
+}
+#image{
+  border-style: groove;
+  border-radius: 100px;
+  margin:20px 0;
+  width:200px;
+  height:200px;
+}
+.container{
+  border-style: dashed;
+  border-width: thick;
+  border-color: white;
+  background:tomato;
+  text-align: center;
+  width:500px;
+  margin: 100px auto  ;
+
+}
+.hobbies{
+  list-style: none;
+  margin:10px 0;
+  padding:0;
+}
+.hobbies li{
+  margin:10px;
+  color:white;
+  font-family: fantasy;
+  font-size:20px;
+}
+form{
+  margin:20px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
