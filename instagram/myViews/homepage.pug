@@ -1,16 +1,12 @@
 include head.pug
-include nav.pug
   head
   append head
   body
-    append navbar
-    div.container
-        div.myprofilepicture
-          img(src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAASAAAAAJGZhYTAxYmQ2LWUyZmQtNGY0ZS1hNjMwLWE1YWY3YjAyYzJlOQ.jpg" style="border-radius:100px; width:200px;height:200px")
-          p I currently dont have any projects to show..whoops
-    
-  
+      div.maincontainer
+        include nav.pug
+
+      
+           
 
   script(src="/js/main.js")
   script(src="/js/bootstrap.js")
-  

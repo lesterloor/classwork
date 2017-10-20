@@ -4,18 +4,15 @@ include head.pug
   body
       div.Containerboth
         div.box
-          h1 Register
+          h1 Log in
           div.formcontainer
            form(class="registerForm")
-              input(class="emailinput" type="email" name="email" placeholder="Email")
-              br  
               input(class="usernameinput" type="text" name="username" placeholder="Username") 
               br
               input(class="passwordinput" type="password" name="password" placeholder="Password")
               br 
-              button(id="submitbutton" type="submit") Sign Up    
-           a(href="/login") Click here to login
-
+              button(id="submitbutton" type="submit") Log in    
+           a(href="/register") Click here to register
 
   script(src="/js/main.js")
   script(src="/js/bootstrap.js")
