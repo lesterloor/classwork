@@ -1,0 +1,21 @@
+include head.pug
+include nav.pug
+  head
+  append head
+  body
+    append navbar
+      div.flexContainer
+        - for (var i = databasePost.length - 1; i >= 0; --i) {
+          
+            div.postDIV
+              img(class="postImage"  src= databasePost[i].images)
+              div.titleCSS= databasePost[i].title 
+              p.paragraphDIV= databasePost[i].body
+        - }
+      
+            
+      
+            
+          
+    script(src="/js/main.js")
+    

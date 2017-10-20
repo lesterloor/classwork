@@ -1,0 +1,19 @@
+include head.pug
+include nav.pug
+  
+  head
+  append head
+  body
+    append navbar
+    div.contactForm
+      form(action="")
+        label(for=fName) First Name 
+        input(type="text" id="firstName" placeholder="Enter Your First Name")
+        label(for=lName) Last Name 
+        input(type="text" id="lastname" placeholder="Enter Your Last Name")
+        textarea(id="subject" name="subject" placeholder="What would you like to tell me?")
+        input(type="submit" value="submit")  
+          
+          
+  script(src="/js/main.js")
+  
